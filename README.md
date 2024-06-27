@@ -9,3 +9,20 @@ BST have left node right node and root. think about order about it. how to read 
 first, if not 1-26 or is 0, should return 0. because 0 means nothing
 x = len, len is message
 how to divide?
+
+
+
+# 1382. Balance a Binary Search Tree
+
+
+# 117. Populating Next Right Pointers in Each Node II
+
+
+
+# 1791. Find Center of Star Graph
+first, find the same number in each edge. /br
+
+
+# 128. Longest Consecutive Sequence
+
+
