@@ -20,9 +20,18 @@ how to divide?
 
 
 # 1791. Find Center of Star Graph
-first, find the same number in each edge. /br
-
+there is only one center.
+so find the same number in each edge.
+but just need to compare the first two edge is enough. because each edge have center number
+compare edge[0, 0],to edge[1, 0] and edge [1, 1].
+we can use if ...or ...    else...
 
 # 128. Longest Consecutive Sequence
+we need to create a empty array. use Hashmap
+we have an unsorted array of integers nums. so first we need to order it.
+we need to use a for loop and while loop to determine that the adjacent numbers in the array differ only by 1 for whole nums. nums and nums - 1
+and store the numbers in an empty array. Until the adjacent numbers do not differ by 1.
+so we will have many new array. we need to choose the biggest one. 
+
 
 
