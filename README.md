@@ -1,7 +1,7 @@
 # 1038. Binary Search Tree to Greater Sum Tree
-original node value plus the sum of all node value greater than the original node value in BST (.sum)
-use .sum += node.val so we have sum value.  then node.val = .sum. we can get GST
-And .sum should be equal to current node value plus the sum of all node value greater than the current node value
+original node value plus the sum of all node value greater than the original node value in BST (.sum) <br>
+use .sum += node.val so we have sum value.  then node.val = .sum. we can get GST <br>
+And .sum should be equal to current node value plus the sum of all node value greater than the current node value <br>
 we need to determine all other node value and the current node value. so need traverse. 
 BST have left node right node and root. think about order about it. how to read each node value? we can use recursion
 
