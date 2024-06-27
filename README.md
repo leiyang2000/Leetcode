@@ -25,6 +25,8 @@ so find the same number in each edge. <br>
 but just need to compare the first two edge is enough. because each edge have center number <br>
 compare edge[0, 0],to edge[1, 0] and edge [1, 1]. <br>
 we can use if ...or ...    else... <br>
+if 0 0 == 1 0 or 0 0 == 1 1 means 0 0 is center. return 0 0 <br>
+else means 0 1 is center so return 0 1
 
 # 128. Longest Consecutive Sequence
 we need to create a empty array. use Hashmap <br>
