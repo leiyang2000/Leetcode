@@ -33,17 +33,27 @@ else means 0 1 is center so return 0 1
 we need to create a empty array. use Hashmap <br>
 we have an unsorted array of integers nums. so first we need to order it. <br>
 we need to use a for loop and while loop to determine that the adjacent numbers in the array differ only by 1 for whole nums. nums and nums - 1 <br>
+for i in len(nums) <br>
 and store the numbers in an empty array. Until the adjacent numbers do not differ by 1. <br>
 so we will have many new array. we need to choose the biggest one. <br>
 <br><br>
 
 ### 2285. Maximum Total Importance of Roads
+first, traverse all country. determine which country connect the most roads. <br>
+store it in an empty array. and order it(roads number). then give the biggest importance to the country have the most roads. <br>
+now we have an ordered array (1,2,2,3,3). this is roads. <br>
+and we distribute importance. it is (1,2,3,4,5). then we use roads times importanve. <br>
+finally, add these 5 number which is the biggest importance <br>
+<br><br>
 
-
-
-
-
-
+### 141 Linked List Cycle
+use a Hash map. create an empty array <br>
+use head as currenr node. we can use while current:    array.add(current) <br>
+then read next node. keep adding. so empty array will add a lot of node <br>
+when the node is the end. currenr.next will the pos. if the pos in this hash set. return true <br>
+else return false. <br>
+* double pointer work, question!? <br>
+<br><br>
 
 
 
