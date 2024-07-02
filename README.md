@@ -46,7 +46,7 @@ and we distribute importance. it is (1,2,3,4,5). then we use roads times importa
 finally, add these 5 number which is the biggest importance <br>
 <br><br>
 
-### 141 Linked List Cycle
+### 141. Linked List Cycle
 use a Hash map. create an empty array <br>
 use head as currenr node. we can use while current:    array.add(current) <br>
 then read next node. keep adding. so empty array will add a lot of node <br>
@@ -54,6 +54,55 @@ when the node is the end. currenr.next will the pos. if the pos in this hash set
 else return false. <br>
 * double pointer work, question!? <br>
 <br><br>
+
+### 2192. All Ancestors of a Node in a Directed Acyclic Graph
+it is like leetcode 1791, but not find center <br>
+reserve traverse all node. deternmine whether each node has a superior(end). if not, return [] <br>
+if there are any superiors, determine how many superiors and names each node has <br>
+<br><br>
+
+### 166. Fraction to Recurring Decimal
+First, we can determine whether the numerator and denominator are 0. If the numerator is 0, 0 is returned directly. If the denominator is 0, it is meaningless. <br>
+then calculate // and %, respectively, the integer part and the remainder part. <br>
+<br><br>
+
+### 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
+*?*
+
+
+### 169. Majority Element
+sort the nums, and return the mid, becuz mid is the majority element <br>
+
+
+
+### 1550. Three Consecutive Odds
+use % to determine num in arr is even or odds. if num % 2 =0 is even, = 1 is odds <br>
+use for loop to traverse arr. <br>
+<br>
+
+### 177. Nth Highest Salary
+*?*
+
+### 350. Intersection of Two Arrays II
+use hash map<br>
+create an empty array to store same number <br>
+we can sort two nums array <br>
+
+
+### 179. Largest Number
+because it is int number, we need to arrange these numbers together. so we should change int to string <br>
+and we need to compare the first digit size of a number <br>
+if there is a 0 in string type, just put it in the end <br>
+then reverse sort them <br>
+
+
+
+
+
+
+
+
+
 
 
 
