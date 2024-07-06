@@ -105,12 +105,13 @@ if more than 4 numbers, first, we need to use nums.sort() to sort all int in num
 *?*
 
 ### 19) 2181. Merge Nodes in Between Zeros
+define a val = 0, then we use val += sum, sum == val. between two 0 <br>
 
 
+### 20） 192. Word Frequency
 
 
-
-
+2058
 
 
 
