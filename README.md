@@ -111,7 +111,11 @@ define a val = 0, then we use val += sum, sum == val. between two 0 <br>
 ### 20） 192. Word Frequency
 
 
-2058
+### 21） 1518. Water Bottles
+numofbottle // numofexchanges = 0 ？ <br>
+total bottle + numofbottle // numofexchanges <br>
+numofbottle % numofexchanges + numofbottle // numofexchanges <br>
+
 
 
 
