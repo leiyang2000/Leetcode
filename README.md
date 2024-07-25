@@ -108,13 +108,45 @@ if more than 4 numbers, first, we need to use nums.sort() to sort all int in num
 define a val = 0, then we use val += sum, sum == val. between two 0 <br>
 
 
-### 20） 192. Word Frequency
+### 20）192. Word Frequency
 
 
-### 21） 1518. Water Bottles
+### 21）1518. Water Bottles
 numofbottle // numofexchanges = 0 ？ <br>
 total bottle + numofbottle // numofexchanges <br>
 numofbottle % numofexchanges + numofbottle // numofexchanges <br>
+
+### 22) 194. Transpose File
+
+
+### 23) 2418. Sort the People
+Match the name with the height <br>
+rank the height from largest to smallest, use reverse or decend <br>
+return the name <br>
+
+### 24) 199. Binary Tree Right Side View
+Traverse every level of tree <br>
+create a empty result arr [] <br>
+if not root, there no result, so return this empty arr <br>
+create a new arr to store every level node val. from left to right <br>
+then we put the right node val to result<br>
+return result <br>
+
+### 25) 88. Merge Sorted Array
+add nums 2 in nums 1, becuz nums1 has enough space <br>
+first, we can call sort func<br>
+we also can use two pointers in each nums arr <br>
+
+
+### 26) 214. Shortest Palindrome
+
+
+### 27) 
+
+
+
+
+
 
 
 
