@@ -141,7 +141,52 @@ we also can use two pointers in each nums arr <br>
 ### 26) 214. Shortest Palindrome
 
 
-### 27) 
+
+
+### 27) 26. Remove Duplicates from Sorted Array
+i = 0，then if nums i != nums i+1, that is a new number<br>
+so i += 1, return i, i is the length <br>
+
+
+### 28) 218. The Skyline Problem
+
+
+
+### 29) 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
+
+
+
+### 30) 233. Number of Digit One
+*?*
+
+
+### 31) 40. Combination Sum II
+use dfs <br>
+if target == 0, a combination that satisfies the condition is found and added to the result list. <br>
+if target < 0: indicates that the current combination is invalid and is directly returned. <br>
+
+
+### 32) 239. Sliding Window Maximum
+Initializes an empty list res to store the result <br>
+we can use left and right pointer <br>
+
+
+### 33) 2134. Minimum Swaps to Group All 1's Together II
+[0] is next to [-1] <br>
+count number of 1 <br>
+
+
+### 34) 240. Search a 2D Matrix II
+it is a 2D array, matrix[i][j] <br>
+we can start from the left botton <br>
+
+
+
+
+
+
+
+
 
 
 
