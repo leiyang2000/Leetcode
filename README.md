@@ -181,6 +181,12 @@ it is a 2D array, matrix[i][j] <br>
 we can start from the left botton <br>
 
 
+### 35) 
+
+
+### 36)
+
+
 
 
 
