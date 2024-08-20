@@ -30,12 +30,14 @@ else means 0 1 is center so return 0 1
 <br><br>
 
 ### 6) 128. Longest Consecutive Sequence
-we need to create a empty array. use Hashmap <br>
-we have an unsorted array of integers nums. so first we need to order it. <br>
-we need to use a for loop and while loop to determine that the adjacent numbers in the array differ only by 1 for whole nums. nums and nums - 1 <br>
-for i in len(nums) <br>
-and store the numbers in an empty array. Until the adjacent numbers do not differ by 1. <br>
-so we will have many new array. we need to choose the biggest one. <br>
+First, create a hash table, the empty dictionary. <br>
+Update the lengths corresponding to num previous and next, that is, num-1 and num+1.<br>
+d[num-1] and d[num+1] correspond to x and y, the consecutive lengths before and after the current number.<br>
+At this point, the length is x + y + the length of the current number, which is x + 1 + y.<br>
+We have a string of consecutive numbers. We want to update the lengths represented by the first and last digits of this string, that is, update to x+1+y.<br>
+The first number is the current number minus the length represented by the previous number (num-x) and the last number is (num+y). At this point, the lengths of d[num-x] and d[num+y] are the lengths of the entire string of digits x+1+y.<br>
+Setting a res = 0, we update res to indicate the longest consecutive length. If x+1+y is greater than res, then res=x+1+y. then use a for loop.<br>
+Finally return res.<br>
 <br><br>
 
 ### 7) 2285. Maximum Total Importance of Roads
