@@ -11,8 +11,7 @@ class Solution:
             
             d[nums[i]] = i
             
+
 s = Solution()
-
 ret = s.twoSum(nums = [1,2,3,4],target = 7)
-
 print(ret)
